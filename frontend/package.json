@@ -5,8 +5,8 @@
   "description": "Self-hosting host app for the shared InsForge dashboard package",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src/"
